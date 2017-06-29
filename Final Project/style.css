@@ -1,0 +1,116 @@
+html, body, header, footer, hgroup, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+
+header {
+    background-color: green;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+h1{
+
+    font-size: 3em;
+    text-align: center;
+    padding-top:.75em;
+    color: white;
+}
+
+header{
+    font-size: 1em;
+    text-align: right;
+
+}
+
+header h1{
+    margin-top: -.5em;
+
+}
+
+.navi p{
+    color: black;
+    font-size: 20px;
+}
+.navi a:link {
+    color: black;
+}
+
+.navi a:visited {
+    color: black;
+}
+
+div.options p{
+    display: inline;
+    color: black;
+    font-size: 30px;
+    padding: 60px;
+}
+div.options{
+    background-color: yellow;
+    padding: 3px;
+    padding-bottom: 10px;
+}
+div.main{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    margin-top:0em;
+    margin-bottom: 2em;
+}
+
+figure {
+    text-align: center;
+    background-color: white;
+}
+
+figure img {
+    border: solid 1pt  #3f3622;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+div.text p{
+    width: 750px;
+    margin: 1em;
+    padding: auto;
+    margin-left: 14em;
+}
+
+div.text{
+    text-align: justify;
+}
+
+div.main ul{
+    margin-left: 300px;
+    margin-right: 100px;
+
+}
+
+div.main div.bullets{
+    margin-left: 60px;
+}
+
+div.main h2{
+    width: 750px;
+    margin: 1em;
+    padding: auto;
+    margin-left: 10em;
+    font-size: 22px;
+}
